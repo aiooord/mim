@@ -1,3 +1,5 @@
+<div style="text-align: justify;">
+  
 > [!WARNING]
 > The authors are not responsible for third parties' actions while using the provided software. This software is considered a tool for legal penetration testing or research. In case of misuse, the authors don't bear any responsibility for the actions of third parties.
 
@@ -38,6 +40,6 @@ The use of Morse code for obfuscation in malware highlights several critical poi
 
 ## Conclusion
 
-The "Morse in Malware" repository provides a valuable resource for studying the intersection of traditional communication methods and modern obfuscation techniques in malware development. By examining the encoder and binary integration demonstrator, researchers can better understand how Morse code is leveraged to create more resilient and elusive malware, ultimately contributing to the advancement of cybersecurity defenses.
+The "Morse in Malware" repository provides a valuable resource for studying the intersection of traditional communication methods and modern obfuscation techniques in malware development. By examining the encoder and binary integration demonstrator, researchers can better understand how Morse code is leveraged to create more resilient and elusive malware, ultimately contributing to the advancement of cybersecurity defenses. This research sheds light on current malware obfuscation practices and encourages the development of more advanced detection and analysis strategies to combat increasingly sophisticated threats.
 
-This research sheds light on current malware obfuscation practices and encourages the development of more advanced detection and analysis strategies to combat increasingly sophisticated threats.
+</div>
