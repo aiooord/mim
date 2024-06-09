@@ -7,20 +7,25 @@
 </p>
 
 ## Overview
+<p align="justify">
 The study of Morse code in malware is an in-depth exploration of obfuscation techniques within malicious software development. This research delves into how Morse code, a method traditionally used for telecommunication, is repurposed to conceal the true intent and functionality of malware. This repository includes two primary programs: one designed to encode strings into Morse code for obfuscation purposes and another to demonstrate the application of these obfuscated strings within an actual binary executable.
+</p>
 
 ## Components of the Repository
 
 ### Morse Code Encoder
+<p align="justify">
 The first program in the repository is an encoder that transforms plain text strings into Morse code. This obfuscation process converts readable text into a sequence of dots and dashes, making it difficult for standard security tools to detect and analyze the malware’s payload. The encoder’s functionality can be summarized as follows:
+</p>
 
 - **String Conversion**: Converts input strings into Morse code, using predefined mappings of characters to Morse symbols.
 - **Obfuscation**: Enhances the complexity of the malware, thus evading detection mechanisms by converting critical strings and commands.
 - **Customization**: Allows for customization of Morse code representations to obfuscate the patterns used further, adding an additional layer of complexity for reverse engineers.
 
 ### Binary Integration Demonstrator
-
+<p align="justify">
 The second program in the repository is a demonstrator that showcases how these obfuscated Morse code strings can be embedded and utilized within a real binary executable. This program serves to illustrate the practical application of Morse code obfuscation in a malware context:
+</p>
 
 - **Embedding Morse Code**: Integrates the obfuscated Morse code strings directly into the binary, replacing original strings or commands.
 - **Decoding Mechanism**: Includes a runtime decoder that translates Morse code back into its original string form during execution, allowing the malware to function as intended while maintaining obfuscation during static analysis.
