@@ -2,13 +2,16 @@
 
 int main(int argc, char* argv[])
 {
+    std::cout << "Ai000 Cybernetics QLab - Morse Code Obfuscator" << std::endl;
+    std::cout << "Ai000 Cybernetics QLab - acql.ir" << std::endl;
+
     std::string input;
     
     while (true)
     {
         std::cout << std::endl;
         std::cout << "Enter the Plaintext: ";
-        std::cin >> input;
+        std::getline(std::cin, input);
         if (input != "exit")
         {
             std::string morse = EncodePlaintextToMorseCode(input);
