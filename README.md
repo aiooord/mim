@@ -3,7 +3,7 @@
 
 # Morse Code in Malware Analysis
 <p align="center">
-<img src="[https://github.com/aiooord/mim/readme_photos/logo.png](https://github.com/aiooord/mim/blob/main/readme_photos/logo.png)">
+<img src="https://github.com/aiooord/mim/blob/main/readme_photos/logo.png">
 </p>
 
 ## Overview
