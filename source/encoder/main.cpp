@@ -11,7 +11,10 @@ int main(int argc, char* argv[])
     {
         std::cout << std::endl;
         std::cout << "Enter the Plaintext: ";
+	
+	// Improve input handling to read full lines using std::getline
         std::getline(std::cin, input);
+	
         if (input != "exit")
         {
             std::string morse = EncodePlaintextToMorseCode(input);
